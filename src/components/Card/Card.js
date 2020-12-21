@@ -7,7 +7,7 @@ import {settings} from '../../data/dataStore';
 class Card extends React.Component {
 
   static propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
   }
 
   static defaultProps = {
