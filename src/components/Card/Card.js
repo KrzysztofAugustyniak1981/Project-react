@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './card.scss';
+import styles from './Card.scss';
 import PropTypes from 'prop-types';
 import {settings} from '../../data/dataStore';
 
