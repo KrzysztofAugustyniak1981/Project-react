@@ -5,6 +5,7 @@ import styles from './Header.scss';
 import Container from '../../Container/Container.js';
 import Icon from '../Icon.js';
 import { settings } from '../../data/dataStore';
+import Search from '../Search/Search';
 
 class Header extends React.Component {
     static propTypes = {
@@ -18,6 +19,7 @@ class Header extends React.Component {
       return (
         <header className={styles.component}>
           <Container>
+            <Search />
             <div className={styles.wrapper} >
               <Link to='/' className={styles.logo}>
                 <Icon name={icon} />
